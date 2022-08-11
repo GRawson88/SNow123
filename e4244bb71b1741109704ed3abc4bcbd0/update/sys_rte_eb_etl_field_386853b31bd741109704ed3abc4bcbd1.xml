@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_field">
+    <sys_rte_eb_etl_field action="INSERT_OR_UPDATE">
+        <coalesce>false</coalesce>
+        <coercion_action>create</coercion_action>
+        <field>u_syst_type_cd_sn_ihub_pill_uid_1652459381606</field>
+        <name>SYST_TYPE_CD_sn_ihub_target_system_type_code</name>
+        <sys_class_name>sys_rte_eb_etl_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-13 16:29:45</sys_created_on>
+        <sys_id>386853b31bd741109704ed3abc4bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SYST_TYPE_CD_sn_ihub_target_system_type_code</sys_name>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="System Types Data_etl_ihub">ad489f731bd741109704ed3abc4bcb9c</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_x_690790_employe_0_system_types">f8681b731bd741109704ed3abc4bcbcd</sys_rte_eb_entity>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_field_386853b31bd741109704ed3abc4bcbd1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-13 16:29:45</sys_updated_on>
+    </sys_rte_eb_etl_field>
+</record_update>

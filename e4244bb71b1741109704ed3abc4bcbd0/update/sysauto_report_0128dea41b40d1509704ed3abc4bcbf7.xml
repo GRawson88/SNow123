@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_report">
+    <sysauto_report action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <address_list/>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <group_list/>
+        <include_detail>false</include_detail>
+        <include_with/>
+        <name>Scheduled execution of Employee Access Active</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <omit_if_no_records>false</omit_if_no_records>
+        <output_type>PDF-landscape</output_type>
+        <page_height_in_pixels>612</page_height_in_pixels>
+        <page_size>Letter</page_size>
+        <page_width_in_pixels>792</page_width_in_pixels>
+        <report display_value="Employee Access Active">c5909e6c1b0c91509704ed3abc4bcb32</report>
+        <report_body><![CDATA[<p><a href="https://dev78817.service-now.com/sys_report_display.do?sysparm_report_id=c5909e6c1b0c91509704ed3abc4bcb32">https://dev78817.service-now.com/sys_report_display.do?sysparm_report_id=c5909e6c1b0c91509704ed3abc4bcb32</a></p>]]></report_body>
+        <report_title>Daily Active Employee Access Records Drilldown Report</report_title>
+        <run_as display_value="Gabe Darity">7c9e7e331b1741109704ed3abc4bcb9c</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2022-06-09 16:15:54</run_start>
+        <run_time>1970-01-01 07:04:00</run_time>
+        <run_type>daily</run_type>
+        <sys_class_name>sysauto_report</sys_class_name>
+        <sys_created_by>Gabe.Darity</sys_created_by>
+        <sys_created_on>2022-06-09 16:17:31</sys_created_on>
+        <sys_id>0128dea41b40d1509704ed3abc4bcbf7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Scheduled execution of Employee Access Active</sys_name>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name>sysauto_report_0128dea41b40d1509704ed3abc4bcbf7</sys_update_name>
+        <sys_updated_by>Gabe.Darity</sys_updated_by>
+        <sys_updated_on>2022-06-09 16:27:43</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+        <user_list>7c9e7e331b1741109704ed3abc4bcb9c,6816f79cc0a8016401c5a33be04be441,961196141b4819109704ed3abc4bcbc0,3bfd06981b8419109704ed3abc4bcbbe,724661141b4095109704ed3abc4bcbdd</user_list>
+        <zip>false</zip>
+    </sysauto_report>
+</record_update>

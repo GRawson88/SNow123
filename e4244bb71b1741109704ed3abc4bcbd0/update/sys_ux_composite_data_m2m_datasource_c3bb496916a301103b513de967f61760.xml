@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - My Tasks Dataset">07bb4969baa30110140e414ae1858861</dataset>
+        <datasource display_value="Custom Portal Landing - My Tasks Datasource (Task table)">8bbb49698ca30110cde54c03b947d360</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-05-18 16:44:42</sys_created_on>
+        <sys_id>c3bb496916a301103b513de967f61760</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_c3bb496916a301103b513de967f61760</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-05-18 16:44:42</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

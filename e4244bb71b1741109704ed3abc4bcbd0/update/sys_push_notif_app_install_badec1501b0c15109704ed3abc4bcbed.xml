@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_app_install">
+    <sys_push_notif_app_install action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <last_registered_on>2022-06-08 16:22:13</last_registered_on>
+        <sys_class_name>sys_push_notif_app_install</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-08 16:17:14</sys_created_on>
+        <sys_id>badec1501b0c15109704ed3abc4bcbed</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>czyOtKXUS9-OuDviiih8aG:APA91bGWvwTF1jsS3r4PzIpYP8yD5P6h0kWLlCeSkElmPC_OQ5yN2Ep9mfcSmJo7mo_BhypW866rKWm8ARE0otSFjaYczhYfnxNVx4Zud_jzHKQxKRUFBx8SPNAWeevMctpaW8n3Uxm-</sys_name>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_push_application_id display_value="ServiceNow Mobile Application">05ed2fb177002300258da2e2c81061c2</sys_push_application_id>
+        <sys_push_platform_id display_value="Google">53e75f30ff0002009738ffffffffff12</sys_push_platform_id>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name>sys_push_notif_app_install_badec1501b0c15109704ed3abc4bcbed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-08 16:22:13</sys_updated_on>
+        <sys_user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</sys_user_id>
+        <token>czyOtKXUS9-OuDviiih8aG:APA91bGWvwTF1jsS3r4PzIpYP8yD5P6h0kWLlCeSkElmPC_OQ5yN2Ep9mfcSmJo7mo_BhypW866rKWm8ARE0otSFjaYczhYfnxNVx4Zud_jzHKQxKRUFBx8SPNAWeevMctpaW8n3Uxm-</token>
+    </sys_push_notif_app_install>
+</record_update>

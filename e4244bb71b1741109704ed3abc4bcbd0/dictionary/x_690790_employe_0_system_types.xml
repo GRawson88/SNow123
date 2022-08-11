@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="System Types" max_length="40" name="x_690790_employe_0_system_types" sizeclass="244" type="collection">
+        <element display="true" label="System Description" max_length="40" name="system_description" type="string"/>
+        <element label="System Type Code" max_length="40" name="system_type_code" type="string"/>
+    </element>
+</database>

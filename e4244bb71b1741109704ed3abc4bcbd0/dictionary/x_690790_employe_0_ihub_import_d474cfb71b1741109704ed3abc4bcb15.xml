@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Employees" max_length="40" name="x_690790_employe_0_ihub_import_d474cfb71b1741109704ed3abc4bcb15" sizeclass="0" type="collection">
+        <element attributes="import_attribute_name=EMPL_ID_SEQ" label="EMPL_ID_SEQ" max_length="40" name="u_empl_id_seq" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=FST_NM" label="FST_NM" max_length="40" name="u_fst_nm" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LOGON_ID" label="LOGON_ID" max_length="40" name="u_logon_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=LST_NM" label="LST_NM" max_length="40" name="u_lst_nm" type="string"/>
+    </element>
+</database>

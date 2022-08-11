@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Employee Access Active">c5909e6c1b0c91509704ed3abc4bcb32</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>Gabe.Darity</sys_created_by>
+        <sys_created_on>2022-06-09 15:42:51</sys_created_on>
+        <sys_id>4d909e6c1b0c91509704ed3abc4bcb32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c5909e6c1b0c91509704ed3abc4bcb32</sys_name>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name>sys_report_users_groups_4d909e6c1b0c91509704ed3abc4bcb32</sys_update_name>
+        <sys_updated_by>Gabe.Darity</sys_updated_by>
+        <sys_updated_on>2022-06-09 15:42:51</sys_updated_on>
+        <user_id display_value="Gabe Darity">7c9e7e331b1741109704ed3abc4bcb9c</user_id>
+    </sys_report_users_groups>
+</record_update>

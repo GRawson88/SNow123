@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher">
+    <sys_sg_applet_launcher action="DELETE">
+        <active>true</active>
+        <available_offline>false</available_offline>
+        <header_button/>
+        <header_titles/>
+        <hide_empty_sections>true</hide_empty_sections>
+        <name>Employee Access and Termination</name>
+        <required_roles>x_690790_employe_0.admin,x_690790_employe_0.user</required_roles>
+        <search_config/>
+        <sys_class_name>sys_sg_applet_launcher</sys_class_name>
+        <sys_created_by>Gabe.Darity</sys_created_by>
+        <sys_created_on>2022-05-13 15:39:50</sys_created_on>
+        <sys_id>21fccf371b5741109704ed3abc4bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee Access and Termination</sys_name>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_21fccf371b5741109704ed3abc4bcbdf</sys_update_name>
+        <sys_updated_by>Gabe.Darity</sys_updated_by>
+        <sys_updated_on>2022-05-13 15:39:50</sys_updated_on>
+        <title>Employee Access and Termination</title>
+    </sys_sg_applet_launcher>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</application>
+        <file_path/>
+        <instance_id>4da38ba2dba033000b9d21c4059619fa</instance_id>
+        <instance_name>dev78817</instance_name>
+        <name>sys_sg_applet_launcher_21fccf371b5741109704ed3abc4bcbdf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher"><sys_sg_applet_launcher action="INSERT_OR_UPDATE"><active>true</active><available_offline>false</available_offline><header_button/><header_titles/><hide_empty_sections>true</hide_empty_sections><name>Employee Access and Termination</name><required_roles>x_690790_employe_0.admin,x_690790_employe_0.user</required_roles><search_config/><sys_class_name>sys_sg_applet_launcher</sys_class_name><sys_created_by>Gabe.Darity</sys_created_by><sys_created_on>2022-05-13 15:39:50</sys_created_on><sys_id>21fccf371b5741109704ed3abc4bcbdf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Employee Access and Termination</sys_name><sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package><sys_policy/><sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope><sys_update_name>sys_sg_applet_launcher_21fccf371b5741109704ed3abc4bcbdf</sys_update_name><sys_updated_by>Gabe.Darity</sys_updated_by><sys_updated_on>2022-05-13 15:39:50</sys_updated_on><title>Employee Access and Termination</title></sys_sg_applet_launcher></record_update>]]></payload>
+        <payload_hash>-1400791017</payload_hash>
+        <record_name>Employee Access and Termination</record_name>
+        <reverted_from/>
+        <source>68244bb71b1741109704ed3abc4bcbd2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Gabe.Darity</sys_created_by>
+        <sys_created_on>2022-05-13 15:39:52</sys_created_on>
+        <sys_id>cafc83771b5741109704ed3abc4bcb6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180be13882a0000001</sys_recorded_at>
+        <sys_updated_by>Gabe.Darity</sys_updated_by>
+        <sys_updated_on>2022-05-13 15:39:52</sys_updated_on>
+        <type>Launcher screen</type>
+        <update_guid>46fc8377885741107e7da92e0e0daf6b</update_guid>
+        <update_guid_history>46fc8377885741107e7da92e0e0daf6b:-1400791017</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Gabe.Darity</sys_created_by>
+        <sys_created_on>2022-05-13 15:44:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_applet_launcher">sys_sg_applet_launcher</sys_db_object>
+        <sys_id>2f1589eca19e4900b810697f914e4000</sys_id>
+        <sys_metadata>21fccf371b5741109704ed3abc4bcbdf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee Access and Termination</sys_name>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_scope_delete display_value="">2e55a1372bd44760a219b0ef928c3890</sys_scope_delete>
+        <sys_update_name>sys_sg_applet_launcher_21fccf371b5741109704ed3abc4bcbdf</sys_update_name>
+        <sys_update_version display_value="sys_sg_applet_launcher_21fccf371b5741109704ed3abc4bcbdf">cafc83771b5741109704ed3abc4bcb6b</sys_update_version>
+        <sys_updated_by>Gabe.Darity</sys_updated_by>
+        <sys_updated_on>2022-05-13 15:44:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

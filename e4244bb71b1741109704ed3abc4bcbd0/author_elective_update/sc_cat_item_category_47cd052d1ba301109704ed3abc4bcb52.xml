@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Internal Employee Access Request">ba8c4da91ba301109704ed3abc4bcb6a</sc_cat_item>
+        <sc_category display_value="Security and Access">d2f7cae4c611227a018ddc481b34e099</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>Gabe.Darity</sys_created_by>
+        <sys_created_on>2022-05-18 16:53:37</sys_created_on>
+        <sys_id>47cd052d1ba301109704ed3abc4bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Security and Access.Internal Employee Access Request</sys_name>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name>sc_cat_item_category_47cd052d1ba301109704ed3abc4bcb52</sys_update_name>
+        <sys_updated_by>Gabe.Darity</sys_updated_by>
+        <sys_updated_on>2022-05-18 16:53:37</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</application>
+        <file_path/>
+        <instance_id>4da38ba2dba033000b9d21c4059619fa</instance_id>
+        <instance_name>dev78817</instance_name>
+        <name>sc_cat_item_category_47cd052d1ba301109704ed3abc4bcb52</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Internal Employee Access Request">ba8c4da91ba301109704ed3abc4bcb6a</sc_cat_item><sc_category display_value="Security and Access">d2f7cae4c611227a018ddc481b34e099</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>Gabe.Darity</sys_created_by><sys_created_on>2022-05-18 16:53:37</sys_created_on><sys_id>47cd052d1ba301109704ed3abc4bcb52</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Security and Access.Internal Employee Access Request</sys_name><sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package><sys_policy/><sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope><sys_update_name>sc_cat_item_category_47cd052d1ba301109704ed3abc4bcb52</sys_update_name><sys_updated_by>Gabe.Darity</sys_updated_by><sys_updated_on>2022-05-18 16:53:37</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-45687647</payload_hash>
+        <record_name>Security and Access.Internal Employee Access Request</record_name>
+        <reverted_from/>
+        <source>68244bb71b1741109704ed3abc4bcbd2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Gabe.Darity</sys_created_by>
+        <sys_created_on>2022-05-18 16:53:37</sys_created_on>
+        <sys_id>4bcd052d1ba301109704ed3abc4bcb56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180d816d8520000001</sys_recorded_at>
+        <sys_updated_by>Gabe.Darity</sys_updated_by>
+        <sys_updated_on>2022-05-18 16:53:37</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>cfcd052d3fa30110a19968cac8f8e055</update_guid>
+        <update_guid_history>cfcd052d3fa30110a19968cac8f8e055:-45687647</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Security and Access.Internal Employee Access Request">13cd052d1ba301109704ed3abc4bcbc0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Gabe.Darity</sys_created_by>
+        <sys_created_on>2022-05-18 16:53:38</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>60cdf5b7c8384dad8b44cbed466eb361</sys_id>
+        <sys_metadata>47cd052d1ba301109704ed3abc4bcb52</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Security and Access.Internal Employee Access Request</sys_name>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_scope_delete display_value="">2e55a1372bd44760a219b0ef928c3890</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_47cd052d1ba301109704ed3abc4bcb52</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_47cd052d1ba301109704ed3abc4bcb52">4bcd052d1ba301109704ed3abc4bcb56</sys_update_version>
+        <sys_updated_by>Gabe.Darity</sys_updated_by>
+        <sys_updated_on>2022-05-18 16:53:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

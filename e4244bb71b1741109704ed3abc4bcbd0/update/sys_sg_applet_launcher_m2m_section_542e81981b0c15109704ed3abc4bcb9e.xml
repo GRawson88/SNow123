@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
+    <sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE">
+        <applet_launcher display_value="Employee Access Records">971e8d581b0c15109704ed3abc4bcb12</applet_launcher>
+        <order>0</order>
+        <section display_value="Employee Access Record">d42e81981b0c15109704ed3abc4bcb9c</section>
+        <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>
+        <sys_created_by>Gabe.Darity</sys_created_by>
+        <sys_created_on>2022-06-08 16:14:03</sys_created_on>
+        <sys_id>542e81981b0c15109704ed3abc4bcb9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_542e81981b0c15109704ed3abc4bcb9e</sys_update_name>
+        <sys_updated_by>Gabe.Darity</sys_updated_by>
+        <sys_updated_on>2022-06-08 16:14:03</sys_updated_on>
+    </sys_sg_applet_launcher_m2m_section>
+</record_update>

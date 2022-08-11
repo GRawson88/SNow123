@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="SARF Employee Data" max_length="40" name="x_690790_employe_0_sarf_employee_data" sizeclass="38864" type="collection">
+        <element label="Employee ID" max_length="40" name="employee_id" type="string"/>
+        <element choice="3" label="Employee Type" max_length="40" name="employee_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Internal" sequence="0" value="internal"/>
+                <element inactive_on_update="false" label="External" sequence="1" value="external"/>
+            </choice>
+        </element>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element label="Full Name" max_length="80" name="full_name" read_only="true" type="string"/>
+        <element label="isUpdated" max_length="40" name="isupdated" type="boolean"/>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element display="true" label="Logon ID" max_length="40" name="logon_id" type="string"/>
+    </element>
+</database>

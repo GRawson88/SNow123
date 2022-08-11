@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Internal Employee Access Request">ba8c4da91ba301109704ed3abc4bcb6a</catalog_item>
+        <catalog_variable>IO:bf98437d1be301109704ed3abc4bcbea</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>Gabe.Darity</sys_created_by>
+        <sys_created_on>2022-05-19 20:30:46</sys_created_on>
+        <sys_id>14194b7d1be301109704ed3abc4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>nsu_file_access</sys_name>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_14194b7d1be301109704ed3abc4bcbf8</sys_update_name>
+        <sys_updated_by>Gabe.Darity</sys_updated_by>
+        <sys_updated_on>2022-05-19 20:30:46</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide NSU Action Items">cdd847b91be301109704ed3abc4bcbed</ui_policy>
+        <variable>nsu_file_access</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

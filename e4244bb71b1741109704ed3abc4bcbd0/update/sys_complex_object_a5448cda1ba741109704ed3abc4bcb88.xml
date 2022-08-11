@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDe1448cdaa6a741102d52ad2d3e44df88</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>e4244bb71b1741109704ed3abc4bcbd0</scope_name>
+        <serialized_content>{"FlowDesigner:FDe1448cdaa6a741102d52ad2d3e44df88":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDe1448cdaa6a741102d52ad2d3e44df88.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"updatedAccessList\",\"mandatory\":\"false\",\"child_name\":\"updatedaccesslist_child0\",\"uiUniqueId\":\"22365e54-da94-4783-a7bd-844e83633c91\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDe1448cdaa6a741102d52ad2d3e44df88\",\"child_label\":\"updatedAccessList_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"421b99b5-9d65-45aa-b168-5e2fc1f50ddb\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-20 19:27:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a5448cda1ba741109704ed3abc4bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDe1448cdaa6a741102d52ad2d3e44df88</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name>sys_complex_object_a5448cda1ba741109704ed3abc4bcb88</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-20 19:27:50</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_data_mapping_definition">
+    <sn_ihub_data_mapping_definition action="INSERT_OR_UPDATE">
+        <integration_table>sys_data_source</integration_table>
+        <record_id>5874cfb71b1741109704ed3abc4bcb16</record_id>
+        <source_structure display_value="FDc8e487f7931741104bd0d98e8e425978">4ce487f71b1741109704ed3abc4bcb78</source_structure>
+        <sys_class_name>sn_ihub_data_mapping_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-13 15:03:41</sys_created_on>
+        <sys_id>80b483f71b1741109704ed3abc4bcbc4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name>sn_ihub_data_mapping_definition_80b483f71b1741109704ed3abc4bcbc4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-13 15:04:30</sys_updated_on>
+    </sn_ihub_data_mapping_definition>
+</record_update>

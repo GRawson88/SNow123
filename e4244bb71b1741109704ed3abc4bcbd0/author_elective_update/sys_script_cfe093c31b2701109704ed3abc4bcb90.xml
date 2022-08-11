@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_690790_employe_0_employee_access_record</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p>Message has been added</p>]]></message>
+        <name>Update Active List on record</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var csv = current.getValue('active_systems_sys_id');
+
+	var array = csv.split(',');
+	
+	current.setValue('active_systems', array.toString());
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 18:20:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cfe093c31b2701109704ed3abc4bcb90</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>Update Active List on record</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name>sys_script_cfe093c31b2701109704ed3abc4bcb90</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 18:56:43</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=cfe093c31b2701109704ed3abc4bcb90"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</application>
+        <file_path/>
+        <instance_id>4da38ba2dba033000b9d21c4059619fa</instance_id>
+        <instance_name>dev78817</instance_name>
+        <name>sys_script_cfe093c31b2701109704ed3abc4bcb90</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_690790_employe_0_employee_access_record&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message&gt;&lt;![CDATA[&lt;p&gt;Message has been added&lt;/p&gt;]]&gt;&lt;/message&gt;&lt;name&gt;Update Active List on record&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var csv = current.getValue('active_systems_sys_id');
+
+	var array = csv.split(',');
+	
+	current.setValue('active_systems', array.toString());
+
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-23 18:20:37&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cfe093c31b2701109704ed3abc4bcb90&lt;/sys_id&gt;&lt;sys_mod_count&gt;31&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update Active List on record&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Employee Access and Termination" source="x_690790_employe_0"&gt;e4244bb71b1741109704ed3abc4bcbd0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Employee Access and Termination"&gt;e4244bb71b1741109704ed3abc4bcbd0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_cfe093c31b2701109704ed3abc4bcb90&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-23 18:56:43&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=cfe093c31b2701109704ed3abc4bcb90"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>268648496</payload_hash>
+        <record_name>Update Active List on record</record_name>
+        <reverted_from/>
+        <source>68244bb71b1741109704ed3abc4bcbd2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 18:56:43</sys_created_on>
+        <sys_id>cfe9978b1b2701109704ed3abc4bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180f247593f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 18:56:43</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>87e9978b07270110e61ab259586f5f1c</update_guid>
+        <update_guid_history>87e9978b07270110e61ab259586f5f1c:268648496,a1d9978b002701107bfa0fd513ee9f16:820483787,1608538bd927011055e98f5cbec1ae64:292393430,46e7178b282701104f9c6535174046f1:-703513,c2c7938b192701102ce43e92306f9559:-1607529177,58a79b4b36270110c7e7d14434c4d563:-1903421697,b7875f4bf82701104dfceef618d219ae:1126952507,c4571b0b75270110c393febe051c0a46:-493355251,60379b4b232701100246142be89a6d83:-1407351036,1bf61b0b93270110713dc2af5b214d74:2092117553,5476570be8270110a7093d7bea1ab9b4:1070629713,d02697c784270110b35b7683d898e14e:-1924498739,9d06570b1a270110f19be7ead065b6a9:875207254,5fe5930b3b2701107ea467c95ba7efe9:317849566,8ed5530b142701101ba70e17f6140981:326971288,a9c5130b1c2701102c214b2391139b3c:-530231082,acb55fc772270110949db085168ab656:875207254,748597c76e270110f072c28bff5c3b96:389622511,c885dbc7f6270110bff2803a58c5f078:-1754521438,ff551bc7142701109d9b16aaadf151cd:389622511,71c49b8799270110486529bf35944795:-871226248,60549b871c2701106fbfe156cdf4688f:-1925916122,4f341f47872701107da8ae81c403119a:152130436,fe049387c2270110ad08d8e011b713d9:-722233568,e3b31f47fc270110552399ae7da11532:-385847236,c9b3d3475327011008211e9084387520:-1496087923,c353d70719270110f89d16c7a6e7ecf3:1934899951,5f6257c3ae270110a65d7ec97f18c3c6:1544921509,2e1297074c2701101817b1c80cfba615:747146440,c812dbc3a62701105b980cb7ffb74a8f:-2090573819,02a19fc33a27011018bc92496c48e089:-1070178423</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-23 19:01:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>24f651d8153945cc89b6396551d4d590</sys_id>
+        <sys_metadata>cfe093c31b2701109704ed3abc4bcb90</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Active List on record</sys_name>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_parent display_value="Employee Access Record">f785eb8a1b2741109704ed3abc4bcb6c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_scope_delete display_value="">2e55a1372bd44760a219b0ef928c3890</sys_scope_delete>
+        <sys_update_name>sys_script_cfe093c31b2701109704ed3abc4bcb90</sys_update_name>
+        <sys_update_version display_value="sys_script_cfe093c31b2701109704ed3abc4bcb90">cfe9978b1b2701109704ed3abc4bcb1c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-23 19:01:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

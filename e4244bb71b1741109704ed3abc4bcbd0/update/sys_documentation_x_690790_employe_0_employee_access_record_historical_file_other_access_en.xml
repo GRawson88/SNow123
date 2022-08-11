@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="historical_file_other_access" label="Historical File/Other Access" language="en" table="x_690790_employe_0_employee_access_record">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>historical_file_other_access</element>
+            <help/>
+            <hint/>
+            <label>Historical File/Other Access</label>
+            <language>en</language>
+            <name>x_690790_employe_0_employee_access_record</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-07 19:00:31</sys_created_on>
+            <sys_id>89aaec881b4091109704ed3abc4bcbfc</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Historical File/Other Access</sys_name>
+            <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+            <sys_update_name>sys_documentation_x_690790_employe_0_employee_access_record_historical_file_other_access_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-07 19:00:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

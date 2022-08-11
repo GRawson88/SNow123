@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDc8e487f7931741104bd0d98e8e425978</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>e4244bb71b1741109704ed3abc4bcbd0</scope_name>
+        <serialized_content>{"FlowDesigner:FDc8e487f7931741104bd0d98e8e425978":{"u_fst_nm":"String","u_fst_nm.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"FST_NM\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_empl_id_seq":"Integer","u_empl_id_seq.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"integer\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"EMPL_ID_SEQ\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_lst_nm":"String","u_lst_nm.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"LST_NM\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_logon_id":"String","u_logon_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"LOGON_ID\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"}},"FlowDesigner:FDc8e487f7931741104bd0d98e8e425978.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"object\",\"co_type_name\":\"FDc8e487f7931741104bd0d98e8e425978\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Excel Header\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-13 15:04:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4ce487f71b1741109704ed3abc4bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDc8e487f7931741104bd0d98e8e425978</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name>sys_complex_object_4ce487f71b1741109704ed3abc4bcb78</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-13 15:04:30</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

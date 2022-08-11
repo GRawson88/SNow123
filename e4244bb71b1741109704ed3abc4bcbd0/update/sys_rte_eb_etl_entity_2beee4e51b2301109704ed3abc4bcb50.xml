@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_entity">
+    <sys_rte_eb_etl_entity action="INSERT_OR_UPDATE">
+        <child_id_field/>
+        <name>IHUB_TARGET_TEMP_x_690790_employe_0_system_roles</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>Temp_x_690790_employe_0_system_roles</path>
+        <run_business_rules>false</run_business_rules>
+        <synchronize_inserts>false</synchronize_inserts>
+        <sys_class_name>sys_rte_eb_etl_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 14:38:46</sys_created_on>
+        <sys_id>2beee4e51b2301109704ed3abc4bcb50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IHUB_TARGET_TEMP_x_690790_employe_0_system_roles</sys_name>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="System Roles Data_etl_ihub">9ede20691b2301109704ed3abc4bcbf9</sys_rte_eb_definition>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_entity_2beee4e51b2301109704ed3abc4bcb50</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-18 14:38:46</sys_updated_on>
+        <table/>
+    </sys_rte_eb_etl_entity>
+</record_update>

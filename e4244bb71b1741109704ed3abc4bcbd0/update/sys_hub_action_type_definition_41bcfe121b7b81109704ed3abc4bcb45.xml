@@ -1,0 +1,2155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-sandiego-12-22-2021__patch1-03-02-2022_03-17-2022_1811.zip</compiler_build>
+        <copied_from>903b7f421ba741109704ed3abc4bcb6c</copied_from>
+        <copied_from_name>Modify Access List</copied_from_name>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>remove_delete_from_active_list</internal_name>
+        <label_cache>[{"name":"{{action.current_access_list}}","label":"action➛Access Records","type":"action","ref":"","reference_display":"System Types","base_type":"records","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Records","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"records","uiUniqueId":"16253029-e593-40e1-afd1-928623c20f8b"}},{"name":"{{action.ticket_access_list}}","label":"action➛Ticket Access List","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.ticket_access_list_legacy}}","label":"action➛Access List","type":"action","ref":"","reference_display":"System Types","base_type":"glide_list","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"List","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"glide_list","uiUniqueId":"c3ddd34e-2759-4060-982a-a53efa7b92e7"}},{"name":"{{action.currentaccesslist}}","label":"action➛CurrentAccessList","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.system_access_records}}","label":"action➛System Access Records","type":"action","ref":"","reference_display":"System Types","base_type":"records","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Records","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"records","uiUniqueId":"6e342f05-f136-4c70-8bba-09ce3096b93a"}},{"name":"{{action.ritm}}","label":"action➛EAR","type":"action","ref":"","reference_display":"Employee Access Record","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"aa3aaa0e-54b5-4758-b662-1fbfe38fa8e4"}},{"name":"{{action.ear}}","label":"action➛EAR","type":"action","ref":"","reference_display":"Employee Access Record","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"reference","uiUniqueId":"e09a3cb8-b308-4e75-a7d1-c86eb1fd1a61"}},{"name":"{{action.sysidlist}}","label":"action➛sysIDListActive","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"f0ac2e78-d941-4aa5-8305-0fb4bc574d88"}},{"name":"{{action.activelist}}","label":"action➛ActiveList","type":"action","ref":"","reference_display":"System Types","base_type":"glide_list","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.sysidlistdelete}}","label":"action➛sysIDListDelete","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.sysiddelete}}","label":"action➛sysIDDelete","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[390f406e-350f-49b4-882f-37e9286803b7].test}}","label":"step➛Script step➛test","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"e3a20dec-d3c6-4a64-9adf-ecb46fb0dd5e"}},{"name":"{{step[390f406e-350f-49b4-882f-37e9286803b7].output}}","label":"step➛Script step➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[390f406e-350f-49b4-882f-37e9286803b7].updatedaccesslist}}","label":"step➛Script step➛updatedAccessList","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[390f406e-350f-49b4-882f-37e9286803b7].updatedaccesslist1}}","label":"step➛Script step➛UpdatedAccessList","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","child_name":"updatedaccesslist_child0","uiUniqueId":"908a9db6-4419-425c-aff3-9a4a4c8da001","uiTypeLabel":"Array.String","co_type_name":"","child_label":"UpdatedAccessList_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"array.string","child_type":"string","child_uiUniqueId":"3a103fb5-17ac-4928-b99b-25f5a047c5b4"}},{"name":"{{step[390f406e-350f-49b4-882f-37e9286803b7].updatedaccesslist1.system_type}}","label":"step➛Script step➛UpdatedAccessList➛sys_id","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[390f406e-350f-49b4-882f-37e9286803b7].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[390f406e-350f-49b4-882f-37e9286803b7].updatedactivelist}}","label":"step➛Script step➛updatedActiveList","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"List","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"glide_list","uiUniqueId":"62726ec8-14cf-48aa-9032-2dfe24dd5765"}},{"name":"{{step[390f406e-350f-49b4-882f-37e9286803b7].updatedsyslist}}","label":"step➛Script step➛updatedSysList","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"List","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"glide_list","uiUniqueId":"62726ec8-14cf-48aa-9032-2dfe24dd5765"}}]</label_cache>
+        <master_snapshot>e1710f561b7b81109704ed3abc4bcb1e</master_snapshot>
+        <name>Remove Delete from Active List</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:09:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>41bcfe121b7b81109704ed3abc4bcb45</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>Remove Delete from Active List</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_41bcfe121b7b81109704ed3abc4bcb45</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 21:00:41</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=41bcfe121b7b81109704ed3abc4bcb45"/>
+    <sys_variable_value action="delete_multiple" query="document_key=41bcfe121b7b81109704ed3abc4bcb45"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>41bcfe121b7b81109704ed3abc4bcb45</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:09:20</sys_created_on>
+        <sys_id>51bcfe121b7b81109704ed3abc4bcbaf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:10:10</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD9dbcfe12927b8110029ceef7109a0872":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD9dbcfe12927b8110029ceef7109a0872.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"b8ae8fb5-a00f-44a9-947d-5d1fc1aaed42\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD9dbcfe12927b8110029ceef7109a0872\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">91bcfe121b7b81109704ed3abc4bcb76</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>41bcfe121b7b81109704ed3abc4bcb45</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:09:20</sys_created_on>
+        <sys_id>9dbcfe121b7b81109704ed3abc4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:09:20</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">59bcfe121b7b81109704ed3abc4bcb7b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=41bcfe121b7b81109704ed3abc4bcb45"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>updated_access_list</field>
+        <id>41bcfe121b7b81109704ed3abc4bcb45</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:09:20</sys_created_on>
+        <sys_id>95bcfe121b7b81109704ed3abc4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:09:20</sys_updated_on>
+        <table>var__m_sys_hub_action_output_41bcfe121b7b81109704ed3abc4bcb45</table>
+        <value>{{step[390f406e-350f-49b4-882f-37e9286803b7].updatedsyslist}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>41bcfe121b7b81109704ed3abc4bcb45</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:09:20</sys_created_on>
+        <sys_id>1dbcfe121b7b81109704ed3abc4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:09:20</sys_updated_on>
+        <table>var__m_sys_hub_action_output_41bcfe121b7b81109704ed3abc4bcb45</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>41bcfe121b7b81109704ed3abc4bcb45</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:09:20</sys_created_on>
+        <sys_id>59bcfe121b7b81109704ed3abc4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:09:20</sys_updated_on>
+        <table>var__m_sys_hub_action_output_41bcfe121b7b81109704ed3abc4bcb45</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=41bcfe121b7b81109704ed3abc4bcb45^sys_idNOT IN41bcfe121b7b81109704ed3abc4bcb52"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Remove Delete from Active List">41bcfe121b7b81109704ed3abc4bcb45</action>
+        <cid>390f406e-350f-49b4-882f-37e9286803b7</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:09:19</sys_created_on>
+        <sys_id>41bcfe121b7b81109704ed3abc4bcb52</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 21:00:36</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=41bcfe121b7b81109704ed3abc4bcb52"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>41bcfe121b7b81109704ed3abc4bcb52</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:09:19</sys_created_on>
+        <sys_id>1dbcfe121b7b81109704ed3abc4bcb6f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 21:00:36</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  // ... code ...
+
+  var sysIDList = inputs.sysIDList.toString();
+  var sysIDDelete = inputs.sysIDDelete.toString();
+ 
+  try{
+
+    var listArray = sysIDList.split(',');
+    var newListCSV = '';
+
+    for(i = 0; i &lt; listArray.length; i++){
+
+      if(listArray[i] == '' || listArray[i].equals(sysIDDelete)){
+        //leave comments here please//
+      }
+      else{
+
+        newListCSV += listArray[i] + ','
+
+      }
+
+    }
+
+    newListCSV = newListCSV.slice(0,-1);
+
+    outputs.updatedsyslist = newListCSV;
+  }
+  catch(e){
+    if(sysIDList != '' &amp;&amp; sysIDList.equals(sysIDDelete)){
+    	sysIDList = '';
+    }
+    outputs.updatedsyslist = sysIDList;
+  }
+
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>41bcfe121b7b81109704ed3abc4bcb52</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:09:19</sys_created_on>
+        <sys_id>55bcfe121b7b81109704ed3abc4bcb6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:09:19</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=41bcfe121b7b81109704ed3abc4bcb52"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>41bcfe121b7b81109704ed3abc4bcb52</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:09:19</sys_created_on>
+        <sys_id>11bcfe121b7b81109704ed3abc4bcb6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:09:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>41bcfe121b7b81109704ed3abc4bcb52</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:09:19</sys_created_on>
+        <sys_id>d1bcfe121b7b81109704ed3abc4bcb6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:09:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sysIDDelete</field>
+        <id>41bcfe121b7b81109704ed3abc4bcb52</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:11:02</sys_created_on>
+        <sys_id>9e1df6521b7b81109704ed3abc4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:11:02</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_41bcfe121b7b81109704ed3abc4bcb52</table>
+        <value>{{action.sysiddelete}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sysIDList</field>
+        <id>41bcfe121b7b81109704ed3abc4bcb52</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:09:19</sys_created_on>
+        <sys_id>19bcfe121b7b81109704ed3abc4bcb70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:09:19</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_41bcfe121b7b81109704ed3abc4bcb52</table>
+        <value>{{action.sysidlist}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_41bcfe121b7b81109704ed3abc4bcb52^id=41bcfe121b7b81109704ed3abc4bcb52"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=41bcfe121b7b81109704ed3abc4bcb52"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=41bcfe121b7b81109704ed3abc4bcb52^sys_idNOT IN09bcfe121b7b81109704ed3abc4bcb55,521df6521b7b81109704ed3abc4bcb11"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sysIDList</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">41bcfe121b7b81109704ed3abc4bcb52</model>
+        <model_id>41bcfe121b7b81109704ed3abc4bcb52</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_41bcfe121b7b81109704ed3abc4bcb52</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:09:19</sys_created_on>
+        <sys_id>09bcfe121b7b81109704ed3abc4bcb55</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:10:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sysIDDelete</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">41bcfe121b7b81109704ed3abc4bcb52</model>
+        <model_id>41bcfe121b7b81109704ed3abc4bcb52</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_41bcfe121b7b81109704ed3abc4bcb52</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:11:02</sys_created_on>
+        <sys_id>521df6521b7b81109704ed3abc4bcb11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:11:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=41bcfe121b7b81109704ed3abc4bcb52^sys_idNOT IN55bcfe121b7b81109704ed3abc4bcb67"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=62726ec8-14cf-48aa-9032-2dfe24dd5765</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>updatedsyslist</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>updatedSysList</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">41bcfe121b7b81109704ed3abc4bcb52</model>
+        <model_id>41bcfe121b7b81109704ed3abc4bcb52</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_41bcfe121b7b81109704ed3abc4bcb52</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:09:19</sys_created_on>
+        <sys_id>55bcfe121b7b81109704ed3abc4bcb67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:09:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=41bcfe121b7b81109704ed3abc4bcb52"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_41bcfe121b7b81109704ed3abc4bcb52^sys_idNOT IN15bcfe121b7b81109704ed3abc4bcb6b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>updatedsyslist</element>
+        <help/>
+        <hint/>
+        <label>updatedSysList</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_41bcfe121b7b81109704ed3abc4bcb52</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:09:19</sys_created_on>
+        <sys_id>15bcfe121b7b81109704ed3abc4bcb6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:09:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=41bcfe121b7b81109704ed3abc4bcb45^sys_idNOT IN89bcfe121b7b81109704ed3abc4bcb4b,a9ecf2521b7b81109704ed3abc4bcb46"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=f0ac2e78-d941-4aa5-8305-0fb4bc574d88</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sysidlist</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>sysIDListActive</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Remove Delete from Active List">41bcfe121b7b81109704ed3abc4bcb45</model>
+        <model_id>41bcfe121b7b81109704ed3abc4bcb45</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_41bcfe121b7b81109704ed3abc4bcb45</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:09:19</sys_created_on>
+        <sys_id>89bcfe121b7b81109704ed3abc4bcb4b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:10:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=89bcfe121b7b81109704ed3abc4bcb4b"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e7e1e727-7e63-4985-8236-43c9ad935cad</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sysiddelete</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>sysIDDelete</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Remove Delete from Active List">41bcfe121b7b81109704ed3abc4bcb45</model>
+        <model_id>41bcfe121b7b81109704ed3abc4bcb45</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_41bcfe121b7b81109704ed3abc4bcb45</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:10:10</sys_created_on>
+        <sys_id>a9ecf2521b7b81109704ed3abc4bcb46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:10:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a9ecf2521b7b81109704ed3abc4bcb46"/>
+    <sys_hub_action_output action="delete_multiple" query="model=41bcfe121b7b81109704ed3abc4bcb45^sys_idNOT IN55bcfe121b7b81109704ed3abc4bcb9b,59bcfe121b7b81109704ed3abc4bcb7b,91bcfe121b7b81109704ed3abc4bcb76"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=updatedAccessList_child0,child_name=updatedaccesslist_child0,child_type=string,child_type_label=String,child_uiUniqueId=07677800-3ad6-44f3-b857-b53c6bfece93,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=22365e54-da94-4783-a7bd-844e83633c91</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>updated_access_list</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>updatedAccessList</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Remove Delete from Active List">41bcfe121b7b81109704ed3abc4bcb45</model>
+        <model_id>41bcfe121b7b81109704ed3abc4bcb45</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_41bcfe121b7b81109704ed3abc4bcb45</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:09:20</sys_created_on>
+        <sys_id>55bcfe121b7b81109704ed3abc4bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:09:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=55bcfe121b7b81109704ed3abc4bcb9b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=55bcfe121b7b81109704ed3abc4bcb9b"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=30a0d1cf-5df4-4538-bf59-cb51af653634,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Remove Delete from Active List">41bcfe121b7b81109704ed3abc4bcb45</model>
+        <model_id>41bcfe121b7b81109704ed3abc4bcb45</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_41bcfe121b7b81109704ed3abc4bcb45</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:09:19</sys_created_on>
+        <sys_id>59bcfe121b7b81109704ed3abc4bcb7b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:09:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=59bcfe121b7b81109704ed3abc4bcb7b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=59bcfe121b7b81109704ed3abc4bcb7b"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD9dbcfe12927b8110029ceef7109a0872,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=b8ae8fb5-a00f-44a9-947d-5d1fc1aaed42</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Remove Delete from Active List">41bcfe121b7b81109704ed3abc4bcb45</model>
+        <model_id>41bcfe121b7b81109704ed3abc4bcb45</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_41bcfe121b7b81109704ed3abc4bcb45</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:09:19</sys_created_on>
+        <sys_id>91bcfe121b7b81109704ed3abc4bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:09:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=91bcfe121b7b81109704ed3abc4bcb76"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=91bcfe121b7b81109704ed3abc4bcb76"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=41bcfe121b7b81109704ed3abc4bcb45"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=41bcfe121b7b81109704ed3abc4bcb45^sys_idNOT IN51bcfe121b7b81109704ed3abc4bcbb1"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Remove Delete from Active List">41bcfe121b7b81109704ed3abc4bcb45</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:09:20</sys_created_on>
+        <sys_id>51bcfe121b7b81109704ed3abc4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:09:20</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=51bcfe121b7b81109704ed3abc4bcbb1"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_41bcfe121b7b81109704ed3abc4bcb45^sys_idNOT IN05bcfe121b7b81109704ed3abc4bcb50,25ecf2521b7b81109704ed3abc4bcb4a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sysidlist</element>
+        <help/>
+        <hint/>
+        <label>sysIDListActive</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_41bcfe121b7b81109704ed3abc4bcb45</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:09:19</sys_created_on>
+        <sys_id>05bcfe121b7b81109704ed3abc4bcb50</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:10:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sysiddelete</element>
+        <help/>
+        <hint/>
+        <label>sysIDDelete</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_41bcfe121b7b81109704ed3abc4bcb45</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:10:10</sys_created_on>
+        <sys_id>25ecf2521b7b81109704ed3abc4bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:10:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_41bcfe121b7b81109704ed3abc4bcb45"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_41bcfe121b7b81109704ed3abc4bcb45^sys_idNOT INd1bcfe121b7b81109704ed3abc4bcb9f,d5bcfe121b7b81109704ed3abc4bcb9a,d9bcfe121b7b81109704ed3abc4bcb7a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>updated_access_list</element>
+        <help/>
+        <hint/>
+        <label>updatedAccessList</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_41bcfe121b7b81109704ed3abc4bcb45</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:09:20</sys_created_on>
+        <sys_id>d1bcfe121b7b81109704ed3abc4bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:09:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_41bcfe121b7b81109704ed3abc4bcb45</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:09:20</sys_created_on>
+        <sys_id>d5bcfe121b7b81109704ed3abc4bcb9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:09:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_41bcfe121b7b81109704ed3abc4bcb45</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:09:19</sys_created_on>
+        <sys_id>d9bcfe121b7b81109704ed3abc4bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:09:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_41bcfe121b7b81109704ed3abc4bcb45"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=41bcfe121b7b81109704ed3abc4bcb45^sys_idNOT IN0a714f561b7b81109704ed3abc4bcb0d"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Remove Delete from Active List">41bcfe121b7b81109704ed3abc4bcb45</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"0a714f561b7b81109704ed3abc4bcb0d","name":"plan","plan_signature":null}}</plan>
+        <snapshot>2c36d71a1bfb81109704ed3abc4bcb30</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0a714f561b7b81109704ed3abc4bcb0d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 21:00:42</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>remove_delete_from_active_list</internal_name>
+        <label_cache>[{"name":"{{action.current_access_list}}","label":"action➛Access Records","type":"action","ref":"","reference_display":"System Types","base_type":"records","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Records","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"records","uiUniqueId":"16253029-e593-40e1-afd1-928623c20f8b"}},{"name":"{{action.ticket_access_list}}","label":"action➛Ticket Access List","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.ticket_access_list_legacy}}","label":"action➛Access List","type":"action","ref":"","reference_display":"System Types","base_type":"glide_list","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"List","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"glide_list","uiUniqueId":"c3ddd34e-2759-4060-982a-a53efa7b92e7"}},{"name":"{{action.currentaccesslist}}","label":"action➛CurrentAccessList","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.system_access_records}}","label":"action➛System Access Records","type":"action","ref":"","reference_display":"System Types","base_type":"records","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Records","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"records","uiUniqueId":"6e342f05-f136-4c70-8bba-09ce3096b93a"}},{"name":"{{action.ritm}}","label":"action➛EAR","type":"action","ref":"","reference_display":"Employee Access Record","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"aa3aaa0e-54b5-4758-b662-1fbfe38fa8e4"}},{"name":"{{action.ear}}","label":"action➛EAR","type":"action","ref":"","reference_display":"Employee Access Record","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"reference","uiUniqueId":"e09a3cb8-b308-4e75-a7d1-c86eb1fd1a61"}},{"name":"{{action.sysidlist}}","label":"action➛sysIDListActive","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"f0ac2e78-d941-4aa5-8305-0fb4bc574d88"}},{"name":"{{action.activelist}}","label":"action➛ActiveList","type":"action","ref":"","reference_display":"System Types","base_type":"glide_list","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.sysidlistdelete}}","label":"action➛sysIDListDelete","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.sysiddelete}}","label":"action➛sysIDDelete","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[390f406e-350f-49b4-882f-37e9286803b7].test}}","label":"step➛Script step➛test","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"e3a20dec-d3c6-4a64-9adf-ecb46fb0dd5e"}},{"name":"{{step[390f406e-350f-49b4-882f-37e9286803b7].output}}","label":"step➛Script step➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[390f406e-350f-49b4-882f-37e9286803b7].updatedaccesslist}}","label":"step➛Script step➛updatedAccessList","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[390f406e-350f-49b4-882f-37e9286803b7].updatedaccesslist1}}","label":"step➛Script step➛UpdatedAccessList","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","child_name":"updatedaccesslist_child0","uiUniqueId":"908a9db6-4419-425c-aff3-9a4a4c8da001","uiTypeLabel":"Array.String","co_type_name":"","child_label":"UpdatedAccessList_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"array.string","child_type":"string","child_uiUniqueId":"3a103fb5-17ac-4928-b99b-25f5a047c5b4"}},{"name":"{{step[390f406e-350f-49b4-882f-37e9286803b7].updatedaccesslist1.system_type}}","label":"step➛Script step➛UpdatedAccessList➛sys_id","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[390f406e-350f-49b4-882f-37e9286803b7].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[390f406e-350f-49b4-882f-37e9286803b7].updatedactivelist}}","label":"step➛Script step➛updatedActiveList","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"List","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"glide_list","uiUniqueId":"62726ec8-14cf-48aa-9032-2dfe24dd5765"}},{"name":"{{step[390f406e-350f-49b4-882f-37e9286803b7].updatedsyslist}}","label":"step➛Script step➛updatedSysList","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"List","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"glide_list","uiUniqueId":"62726ec8-14cf-48aa-9032-2dfe24dd5765"}}]</label_cache>
+        <master>true</master>
+        <name>Remove Delete from Active List</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Remove Delete from Active List">41bcfe121b7b81109704ed3abc4bcb45</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e1710f561b7b81109704ed3abc4bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:30:06</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=e1710f561b7b81109704ed3abc4bcb1e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e1710f561b7b81109704ed3abc4bcb1e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>e1710f561b7b81109704ed3abc4bcb1e</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:07</sys_created_on>
+        <sys_id>35710f561b7b81109704ed3abc4bcb98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:30:07</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">bd710f561b7b81109704ed3abc4bcb7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>e1710f561b7b81109704ed3abc4bcb1e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:07</sys_created_on>
+        <sys_id>f5710f561b7b81109704ed3abc4bcb98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:30:07</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD25710f567b7b811067f24fc4db4bea5d":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD25710f567b7b811067f24fc4db4bea5d.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"b8ae8fb5-a00f-44a9-947d-5d1fc1aaed42\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD25710f567b7b811067f24fc4db4bea5d\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">7d710f561b7b81109704ed3abc4bcb5f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e1710f561b7b81109704ed3abc4bcb1e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>updated_access_list</field>
+        <id>e1710f561b7b81109704ed3abc4bcb1e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:07</sys_created_on>
+        <sys_id>3d710f561b7b81109704ed3abc4bcb97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:30:07</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e1710f561b7b81109704ed3abc4bcb1e</table>
+        <value>{{step[390f406e-350f-49b4-882f-37e9286803b7].updatedsyslist}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>e1710f561b7b81109704ed3abc4bcb1e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:07</sys_created_on>
+        <sys_id>b1710f561b7b81109704ed3abc4bcb98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:30:07</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e1710f561b7b81109704ed3abc4bcb1e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>e1710f561b7b81109704ed3abc4bcb1e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:07</sys_created_on>
+        <sys_id>fd710f561b7b81109704ed3abc4bcb97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:30:07</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e1710f561b7b81109704ed3abc4bcb1e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=e1710f561b7b81109704ed3abc4bcb1e^sys_idNOT IN25710f561b7b81109704ed3abc4bcb39"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Remove Delete from Active List">e1710f561b7b81109704ed3abc4bcb1e</action>
+        <cid>390f406e-350f-49b4-882f-37e9286803b7</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:06</sys_created_on>
+        <sys_id>25710f561b7b81109704ed3abc4bcb39</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 21:00:41</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=25710f561b7b81109704ed3abc4bcb39"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>25710f561b7b81109704ed3abc4bcb39</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:06</sys_created_on>
+        <sys_id>61710f561b7b81109704ed3abc4bcb5a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 21:00:41</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  // ... code ...
+
+  var sysIDList = inputs.sysIDList.toString();
+  var sysIDDelete = inputs.sysIDDelete.toString();
+ 
+  try{
+
+    var listArray = sysIDList.split(',');
+    var newListCSV = '';
+
+    for(i = 0; i &lt; listArray.length; i++){
+
+      if(listArray[i] == '' || listArray[i].equals(sysIDDelete)){
+        //leave comments here please//
+      }
+      else{
+
+        newListCSV += listArray[i] + ','
+
+      }
+
+    }
+
+    newListCSV = newListCSV.slice(0,-1);
+
+    outputs.updatedsyslist = newListCSV;
+  }
+  catch(e){
+    if(sysIDList != '' &amp;&amp; sysIDList.equals(sysIDDelete)){
+    	sysIDList = '';
+    }
+    outputs.updatedsyslist = sysIDList;
+  }
+
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>25710f561b7b81109704ed3abc4bcb39</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:06</sys_created_on>
+        <sys_id>a9710f561b7b81109704ed3abc4bcb59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:30:06</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=25710f561b7b81109704ed3abc4bcb39"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>25710f561b7b81109704ed3abc4bcb39</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:06</sys_created_on>
+        <sys_id>61710f561b7b81109704ed3abc4bcb59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:30:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>25710f561b7b81109704ed3abc4bcb39</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:06</sys_created_on>
+        <sys_id>29710f561b7b81109704ed3abc4bcb59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:30:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sysIDDelete</field>
+        <id>25710f561b7b81109704ed3abc4bcb39</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:06</sys_created_on>
+        <sys_id>e9710f561b7b81109704ed3abc4bcb5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:30:06</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_25710f561b7b81109704ed3abc4bcb39</table>
+        <value>{{action.sysiddelete}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sysIDList</field>
+        <id>25710f561b7b81109704ed3abc4bcb39</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:06</sys_created_on>
+        <sys_id>ad710f561b7b81109704ed3abc4bcb5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:30:06</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_25710f561b7b81109704ed3abc4bcb39</table>
+        <value>{{action.sysidlist}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_25710f561b7b81109704ed3abc4bcb39^id=25710f561b7b81109704ed3abc4bcb39"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=25710f561b7b81109704ed3abc4bcb39"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=25710f561b7b81109704ed3abc4bcb39^sys_idNOT INa9710f561b7b81109704ed3abc4bcb3c,e1710f561b7b81109704ed3abc4bcb41"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sysIDList</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>sysIDList</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">25710f561b7b81109704ed3abc4bcb39</model>
+        <model_id>25710f561b7b81109704ed3abc4bcb39</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_25710f561b7b81109704ed3abc4bcb39</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:06</sys_created_on>
+        <sys_id>a9710f561b7b81109704ed3abc4bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:30:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sysIDDelete</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>sysIDDelete</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">25710f561b7b81109704ed3abc4bcb39</model>
+        <model_id>25710f561b7b81109704ed3abc4bcb39</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_25710f561b7b81109704ed3abc4bcb39</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:06</sys_created_on>
+        <sys_id>e1710f561b7b81109704ed3abc4bcb41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:30:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=25710f561b7b81109704ed3abc4bcb39^sys_idNOT IN29710f561b7b81109704ed3abc4bcb45"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=62726ec8-14cf-48aa-9032-2dfe24dd5765</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>updatedsyslist</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>updatedSysList</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">25710f561b7b81109704ed3abc4bcb39</model>
+        <model_id>25710f561b7b81109704ed3abc4bcb39</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_25710f561b7b81109704ed3abc4bcb39</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:06</sys_created_on>
+        <sys_id>29710f561b7b81109704ed3abc4bcb45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:30:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=25710f561b7b81109704ed3abc4bcb39"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_25710f561b7b81109704ed3abc4bcb39^sys_idNOT INe1710f561b7b81109704ed3abc4bcb49"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>updatedsyslist</element>
+        <help/>
+        <hint/>
+        <label>updatedSysList</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_25710f561b7b81109704ed3abc4bcb39</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:06</sys_created_on>
+        <sys_id>e1710f561b7b81109704ed3abc4bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:30:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=e1710f561b7b81109704ed3abc4bcb1e^sys_idNOT IN6d710f561b7b81109704ed3abc4bcb33,a1710f561b7b81109704ed3abc4bcb22"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e7e1e727-7e63-4985-8236-43c9ad935cad</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sysiddelete</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>sysIDDelete</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Remove Delete from Active List">e1710f561b7b81109704ed3abc4bcb1e</model>
+        <model_id>e1710f561b7b81109704ed3abc4bcb1e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_e1710f561b7b81109704ed3abc4bcb1e</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:06</sys_created_on>
+        <sys_id>6d710f561b7b81109704ed3abc4bcb33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:30:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6d710f561b7b81109704ed3abc4bcb33"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=f0ac2e78-d941-4aa5-8305-0fb4bc574d88</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sysidlist</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>sysIDListActive</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Remove Delete from Active List">e1710f561b7b81109704ed3abc4bcb1e</model>
+        <model_id>e1710f561b7b81109704ed3abc4bcb1e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_e1710f561b7b81109704ed3abc4bcb1e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:06</sys_created_on>
+        <sys_id>a1710f561b7b81109704ed3abc4bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:30:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a1710f561b7b81109704ed3abc4bcb22"/>
+    <sys_hub_action_output action="delete_multiple" query="model=e1710f561b7b81109704ed3abc4bcb1e^sys_idNOT IN3d710f561b7b81109704ed3abc4bcb84,7d710f561b7b81109704ed3abc4bcb5f,bd710f561b7b81109704ed3abc4bcb7d"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=updatedAccessList_child0,child_name=updatedaccesslist_child0,child_type=string,child_type_label=String,child_uiUniqueId=07677800-3ad6-44f3-b857-b53c6bfece93,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=22365e54-da94-4783-a7bd-844e83633c91</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>updated_access_list</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>updatedAccessList</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Remove Delete from Active List">e1710f561b7b81109704ed3abc4bcb1e</model>
+        <model_id>e1710f561b7b81109704ed3abc4bcb1e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_e1710f561b7b81109704ed3abc4bcb1e</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:07</sys_created_on>
+        <sys_id>3d710f561b7b81109704ed3abc4bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:30:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3d710f561b7b81109704ed3abc4bcb84"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3d710f561b7b81109704ed3abc4bcb84"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD25710f567b7b811067f24fc4db4bea5d,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=b8ae8fb5-a00f-44a9-947d-5d1fc1aaed42</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Remove Delete from Active List">e1710f561b7b81109704ed3abc4bcb1e</model>
+        <model_id>e1710f561b7b81109704ed3abc4bcb1e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_e1710f561b7b81109704ed3abc4bcb1e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:06</sys_created_on>
+        <sys_id>7d710f561b7b81109704ed3abc4bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:30:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7d710f561b7b81109704ed3abc4bcb5f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7d710f561b7b81109704ed3abc4bcb5f"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=30a0d1cf-5df4-4538-bf59-cb51af653634,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Remove Delete from Active List">e1710f561b7b81109704ed3abc4bcb1e</model>
+        <model_id>e1710f561b7b81109704ed3abc4bcb1e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_e1710f561b7b81109704ed3abc4bcb1e</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:06</sys_created_on>
+        <sys_id>bd710f561b7b81109704ed3abc4bcb7d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:30:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bd710f561b7b81109704ed3abc4bcb7d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bd710f561b7b81109704ed3abc4bcb7d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=e1710f561b7b81109704ed3abc4bcb1e"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=e1710f561b7b81109704ed3abc4bcb1e^sys_idNOT INf5710f561b7b81109704ed3abc4bcb9a"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Remove Delete from Active List">e1710f561b7b81109704ed3abc4bcb1e</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:07</sys_created_on>
+        <sys_id>f5710f561b7b81109704ed3abc4bcb9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:30:07</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=f5710f561b7b81109704ed3abc4bcb9a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_e1710f561b7b81109704ed3abc4bcb1e^sys_idNOT IN29710f561b7b81109704ed3abc4bcb26,65710f561b7b81109704ed3abc4bcb37"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sysidlist</element>
+        <help/>
+        <hint/>
+        <label>sysIDListActive</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_e1710f561b7b81109704ed3abc4bcb1e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:06</sys_created_on>
+        <sys_id>29710f561b7b81109704ed3abc4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:30:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sysiddelete</element>
+        <help/>
+        <hint/>
+        <label>sysIDDelete</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_e1710f561b7b81109704ed3abc4bcb1e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:06</sys_created_on>
+        <sys_id>65710f561b7b81109704ed3abc4bcb37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:30:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_e1710f561b7b81109704ed3abc4bcb1e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_e1710f561b7b81109704ed3abc4bcb1e^sys_idNOT INb1710f561b7b81109704ed3abc4bcb64,b9710f561b7b81109704ed3abc4bcb88,bd710f561b7b81109704ed3abc4bcb83"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_e1710f561b7b81109704ed3abc4bcb1e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:06</sys_created_on>
+        <sys_id>b1710f561b7b81109704ed3abc4bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:30:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>updated_access_list</element>
+        <help/>
+        <hint/>
+        <label>updatedAccessList</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_e1710f561b7b81109704ed3abc4bcb1e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:07</sys_created_on>
+        <sys_id>b9710f561b7b81109704ed3abc4bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:30:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_e1710f561b7b81109704ed3abc4bcb1e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 19:30:07</sys_created_on>
+        <sys_id>bd710f561b7b81109704ed3abc4bcb83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 19:30:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_e1710f561b7b81109704ed3abc4bcb1e"/>
+    <sys_hub_action_type_definition action="update">
+        <sys_id>41bcfe121b7b81109704ed3abc4bcb45</sys_id>
+        <latest_snapshot>e1710f561b7b81109704ed3abc4bcb1e</latest_snapshot>
+    </sys_hub_action_type_definition>
+</record_update>
