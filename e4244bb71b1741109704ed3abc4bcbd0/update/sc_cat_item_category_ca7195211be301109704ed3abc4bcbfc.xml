@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Internal Employee Access Request">ba8c4da91ba301109704ed3abc4bcb6a</sc_cat_item>
+        <sc_category display_value="Security and Access">d2f7cae4c611227a018ddc481b34e099</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>Gabe.Darity</sys_created_by>
+        <sys_created_on>2022-05-18 17:09:40</sys_created_on>
+        <sys_id>ca7195211be301109704ed3abc4bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Security and Access.Internal Employee Access Request</sys_name>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name>sc_cat_item_category_ca7195211be301109704ed3abc4bcbfc</sys_update_name>
+        <sys_updated_by>Gabe.Darity</sys_updated_by>
+        <sys_updated_on>2022-05-18 17:09:40</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

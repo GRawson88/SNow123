@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>last_name</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 15:51:12</sys_created_on>
+        <sys_id>177fb0e91b6301109704ed3abc4bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>last_name</sys_name>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name>sys_ui_policy_action_177fb0e91b6301109704ed3abc4bcb6e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-18 15:51:12</sys_updated_on>
+        <table>x_690790_employe_0_sarf_employee_data</table>
+        <ui_policy display_value="Read Only Names">fc2ff0e91b6301109704ed3abc4bcba2</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</application>
+        <file_path/>
+        <instance_id>4da38ba2dba033000b9d21c4059619fa</instance_id>
+        <instance_name>dev78817</instance_name>
+        <name>sys_ui_policy_action_177fb0e91b6301109704ed3abc4bcb6e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>last_name</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-18 15:51:12</sys_created_on><sys_id>177fb0e91b6301109704ed3abc4bcb6e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>last_name</sys_name><sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package><sys_policy/><sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope><sys_update_name>sys_ui_policy_action_177fb0e91b6301109704ed3abc4bcb6e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-18 15:51:12</sys_updated_on><table>x_690790_employe_0_sarf_employee_data</table><ui_policy display_value="Read Only Names">fc2ff0e91b6301109704ed3abc4bcba2</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-162809428</payload_hash>
+        <record_name>last_name</record_name>
+        <reverted_from/>
+        <source>68244bb71b1741109704ed3abc4bcbd2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 15:51:12</sys_created_on>
+        <sys_id>b48f78e91b6301109704ed3abc4bcb7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180d7ddb4070000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-18 15:51:12</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>fc8f78e96263011073d6d31f61321a7e</update_guid>
+        <update_guid_history>fc8f78e96263011073d6d31f61321a7e:-162809428</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-18 15:53:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>a3eebab7147e4018beba83e0cf4d7b10</sys_id>
+        <sys_metadata>177fb0e91b6301109704ed3abc4bcb6e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>last_name</sys_name>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_parent display_value="Read Only Names">fc2ff0e91b6301109704ed3abc4bcba2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_scope_delete display_value="">2e55a1372bd44760a219b0ef928c3890</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_177fb0e91b6301109704ed3abc4bcb6e</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_177fb0e91b6301109704ed3abc4bcb6e">b48f78e91b6301109704ed3abc4bcb7f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-18 15:53:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

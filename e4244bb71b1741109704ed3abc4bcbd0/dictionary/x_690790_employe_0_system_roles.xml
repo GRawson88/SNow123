@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="System Roles" max_length="40" name="x_690790_employe_0_system_roles" sizeclass="912" type="collection">
+        <element display="true" label="Description" max_length="80" name="description" type="string"/>
+        <element label="System Role Code" max_length="40" name="system_role_code" type="string"/>
+        <element label="System Type" max_length="32" name="system_type" reference="x_690790_employe_0_system_types" type="reference"/>
+        <element label="System Type Code" max_length="40" name="system_type_code" type="string"/>
+        <index name="index">
+            <element name="system_type"/>
+        </index>
+    </element>
+</database>

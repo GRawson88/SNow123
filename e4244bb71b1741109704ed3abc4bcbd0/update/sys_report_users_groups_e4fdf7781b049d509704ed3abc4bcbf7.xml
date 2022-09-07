@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Bar on Employee Access Record table by number created by Geoffrey K Rawson: 2022-06-10 11:18:55">60fdf7781b049d509704ed3abc4bcbf7</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>CSN090</sys_created_by>
+        <sys_created_on>2022-06-10 18:19:10</sys_created_on>
+        <sys_id>e4fdf7781b049d509704ed3abc4bcbf7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>60fdf7781b049d509704ed3abc4bcbf7</sys_name>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name>sys_report_users_groups_e4fdf7781b049d509704ed3abc4bcbf7</sys_update_name>
+        <sys_updated_by>CSN090</sys_updated_by>
+        <sys_updated_on>2022-06-10 18:19:10</sys_updated_on>
+        <user_id display_value="Geoffrey K Rawson">724661141b4095109704ed3abc4bcbdd</user_id>
+    </sys_report_users_groups>
+</record_update>

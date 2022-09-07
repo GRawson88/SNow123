@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
+    <sys_sg_screen_field action="DELETE">
+        <data_item_field_name>agency_rep_last_name</data_item_field_name>
+        <field_name/>
+        <hidden>false</hidden>
+        <order>80</order>
+        <record_id_field/>
+        <screen display_value="Details">f31e01981b0c15109704ed3abc4bcbe0</screen>
+        <screen_data_item_table>x_690790_employe_0_employee_access_record</screen_data_item_table>
+        <sys_class_name>sys_sg_screen_field</sys_class_name>
+        <sys_created_by>Gabe.Darity</sys_created_by>
+        <sys_created_on>2022-06-08 16:14:02</sys_created_on>
+        <sys_id>842e41981b0c15109704ed3abc4bcbef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>agency_rep_last_name</sys_name>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name>sys_sg_screen_field_842e41981b0c15109704ed3abc4bcbef</sys_update_name>
+        <sys_updated_by>Gabe.Darity</sys_updated_by>
+        <sys_updated_on>2022-06-08 16:14:02</sys_updated_on>
+        <type>auto</type>
+        <value_only>false</value_only>
+    </sys_sg_screen_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</application>
+        <file_path/>
+        <instance_id>4da38ba2dba033000b9d21c4059619fa</instance_id>
+        <instance_name>dev78817</instance_name>
+        <name>sys_sg_screen_field_842e41981b0c15109704ed3abc4bcbef</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field"><sys_sg_screen_field action="INSERT_OR_UPDATE"><data_item_field_name>agency_rep_last_name</data_item_field_name><field_name/><hidden>false</hidden><order>80</order><record_id_field/><screen display_value="Details">f31e01981b0c15109704ed3abc4bcbe0</screen><screen_data_item_table>x_690790_employe_0_employee_access_record</screen_data_item_table><sys_class_name>sys_sg_screen_field</sys_class_name><sys_created_by>Gabe.Darity</sys_created_by><sys_created_on>2022-06-08 16:14:02</sys_created_on><sys_id>842e41981b0c15109704ed3abc4bcbef</sys_id><sys_mod_count>0</sys_mod_count><sys_name>agency_rep_last_name</sys_name><sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package><sys_policy/><sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope><sys_update_name>sys_sg_screen_field_842e41981b0c15109704ed3abc4bcbef</sys_update_name><sys_updated_by>Gabe.Darity</sys_updated_by><sys_updated_on>2022-06-08 16:14:02</sys_updated_on><type>auto</type><value_only>false</value_only></sys_sg_screen_field></record_update>]]></payload>
+        <payload_hash>1213408044</payload_hash>
+        <record_name>agency_rep_last_name</record_name>
+        <reverted_from/>
+        <source>68244bb71b1741109704ed3abc4bcbd2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Gabe.Darity</sys_created_by>
+        <sys_created_on>2022-06-08 16:14:06</sys_created_on>
+        <sys_id>f42e85981b0c15109704ed3abc4bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181441835420000001</sys_recorded_at>
+        <sys_updated_by>Gabe.Darity</sys_updated_by>
+        <sys_updated_on>2022-06-08 16:14:06</sys_updated_on>
+        <type>Screen fields</type>
+        <update_guid>702e8598a70c15107c1d55e3b65d45fb</update_guid>
+        <update_guid_history>702e8598a70c15107c1d55e3b65d45fb:1213408044</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Gabe.Darity</sys_created_by>
+        <sys_created_on>2022-06-08 16:29:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_screen_field">sys_sg_screen_field</sys_db_object>
+        <sys_id>09a1b6b0c8274485828333f45c5ec299</sys_id>
+        <sys_metadata>842e41981b0c15109704ed3abc4bcbef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>agency_rep_last_name</sys_name>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_scope_delete display_value="">2e55a1372bd44760a219b0ef928c3890</sys_scope_delete>
+        <sys_update_name>sys_sg_screen_field_842e41981b0c15109704ed3abc4bcbef</sys_update_name>
+        <sys_update_version display_value="sys_sg_screen_field_842e41981b0c15109704ed3abc4bcbef">f42e85981b0c15109704ed3abc4bcbfb</sys_update_version>
+        <sys_updated_by>Gabe.Darity</sys_updated_by>
+        <sys_updated_on>2022-06-08 16:29:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

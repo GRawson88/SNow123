@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Internal Employee Access Request">ba8c4da91ba301109704ed3abc4bcb6a</catalog_item>
+        <catalog_variable>IO:d64315e11be301109704ed3abc4bcbbc</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-09 15:07:57</sys_created_on>
+        <sys_id>cf88826c1bc491509704ed3abc4bcb1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>changed_position</sys_name>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_cf88826c1bc491509704ed3abc4bcb1f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-09 15:07:57</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Read Only User Submitted Fields in RITM/SCTask">b9378e6c1b8491509704ed3abc4bcb6a</ui_policy>
+        <variable>changed_position</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

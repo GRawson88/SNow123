@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_690790_employe_0.glide.sc.use_sc_form_v2</name>
+        <read_roles/>
+        <suffix>glide.sc.use_sc_form_v2</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-06 15:07:34</sys_created_on>
+        <sys_id>ba7ba62f1b7301109704ed3abc4bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_690790_employe_0.glide.sc.use_sc_form_v2</sys_name>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_update_name>sys_properties_ba7ba62f1b7301109704ed3abc4bcbdf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-06 15:07:34</sys_updated_on>
+        <type>boolean</type>
+        <value>false</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=ba7ba62f1b7301109704ed3abc4bcbdf"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</application>
+        <file_path/>
+        <instance_id>4da38ba2dba033000b9d21c4059619fa</instance_id>
+        <instance_name>dev78817</instance_name>
+        <name>sys_properties_ba7ba62f1b7301109704ed3abc4bcbdf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description/><ignore_cache>true</ignore_cache><is_private>false</is_private><name>x_690790_employe_0.glide.sc.use_sc_form_v2</name><read_roles/><suffix>glide.sc.use_sc_form_v2</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-06 15:07:34</sys_created_on><sys_id>ba7ba62f1b7301109704ed3abc4bcbdf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_690790_employe_0.glide.sc.use_sc_form_v2</sys_name><sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package><sys_policy/><sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope><sys_update_name>sys_properties_ba7ba62f1b7301109704ed3abc4bcbdf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-06 15:07:34</sys_updated_on><type>boolean</type><value>false</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=ba7ba62f1b7301109704ed3abc4bcbdf"/></record_update>]]></payload>
+        <payload_hash>58896076</payload_hash>
+        <record_name>x_690790_employe_0.glide.sc.use_sc_form_v2</record_name>
+        <reverted_from/>
+        <source>68244bb71b1741109704ed3abc4bcbd2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-06 15:07:35</sys_created_on>
+        <sys_id>43bbe62f1b7301109704ed3abc4bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181398e98020000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-06 15:07:35</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>4bbbe62fe3730110cd0481b88f02f5fc</update_guid>
+        <update_guid_history>4bbbe62fe3730110cd0481b88f02f5fc:58896076</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-06 15:08:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>b1422ec472c3479c9ecbb759f1fd4801</sys_id>
+        <sys_metadata>ba7ba62f1b7301109704ed3abc4bcbdf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_690790_employe_0.glide.sc.use_sc_form_v2</sys_name>
+        <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+        <sys_scope_delete display_value="">2e55a1372bd44760a219b0ef928c3890</sys_scope_delete>
+        <sys_update_name>sys_properties_ba7ba62f1b7301109704ed3abc4bcbdf</sys_update_name>
+        <sys_update_version display_value="sys_properties_ba7ba62f1b7301109704ed3abc4bcbdf">43bbe62f1b7301109704ed3abc4bcbfd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-06 15:08:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

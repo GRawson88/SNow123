@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_690790_employe_0_employee_access_data" label="Employee Access Record" max_length="40" name="x_690790_employe_0_employee_access_record" sizeclass="38868" type="collection">
+        <element label="Active Code and Role sys_ids" max_length="2000" name="active_code_and_role_sys_ids" type="string"/>
+        <element label="Active File Access" max_length="2000" name="active_file_access" type="string"/>
+        <element label="Active Other Access" max_length="2000" name="active_other_access" type="string"/>
+        <element attributes="no_sort=true,script=true,slushbucket_ref_no_expand=true" label="Active System Type" max_length="5000" name="active_systems" reference="x_690790_employe_0_system_types" type="glide_list"/>
+        <element label="Active System Code/Role" max_length="5000" name="active_system_code_role" reference="x_690790_employe_0_system_roles" type="glide_list"/>
+        <element label="Active User" max_length="40" name="active_user" type="boolean"/>
+        <element label="Deleted File Access" max_length="2000" name="deleted_file_access" type="string"/>
+        <element label="Deleted Other Access" max_length="2000" name="deleted_other_access" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Deleted System Code/Role" max_length="5000" name="deleted_system_code_role" reference="x_690790_employe_0_system_roles" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Deleted System Type" max_length="5000" name="delete_system_type" reference="x_690790_employe_0_system_types" type="glide_list"/>
+        <element label="Historical File/Other Access" max_length="5000" name="historical_file_other_access" type="string"/>
+        <element label="Full Name" max_length="32" name="system_user_id" read_only="true" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="system_user_id"/>
+        </index>
+    </element>
+</database>

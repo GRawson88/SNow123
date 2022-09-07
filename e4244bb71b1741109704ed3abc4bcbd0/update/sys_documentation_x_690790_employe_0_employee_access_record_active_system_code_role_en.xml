@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="active_system_code_role" label="Active System Code/Role" language="en" table="x_690790_employe_0_employee_access_record">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>active_system_code_role</element>
+            <help/>
+            <hint/>
+            <label>Active System Code/Role</label>
+            <language>en</language>
+            <name>x_690790_employe_0_employee_access_record</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-20 17:26:27</sys_created_on>
+            <sys_id>a378638e1b2741109704ed3abc4bcb85</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>Active System Code/Role</sys_name>
+            <sys_package display_value="Employee Access and Termination" source="x_690790_employe_0">e4244bb71b1741109704ed3abc4bcbd0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Access and Termination">e4244bb71b1741109704ed3abc4bcbd0</sys_scope>
+            <sys_update_name>sys_documentation_x_690790_employe_0_employee_access_record_active_system_code_role_en</sys_update_name>
+            <sys_updated_by>Gabe.Darity</sys_updated_by>
+            <sys_updated_on>2022-06-02 15:42:41</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
